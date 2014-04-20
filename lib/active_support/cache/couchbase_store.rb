@@ -72,6 +72,10 @@ module ActiveSupport
         end
       end
 
+      def foo
+        print 'bar'
+      end
+
       # Fetches data from the cache, using the given key.
       #
       # @since 1.2.0.dp5
