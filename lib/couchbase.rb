@@ -152,4 +152,8 @@ module Couchbase
 
   end
 
+  def foo
+    print 'var'
+  end
+
 end
