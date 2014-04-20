@@ -150,10 +150,10 @@ module Couchbase
     end
     alias set_bucket bucket=
 
+    def foo
+      print 'var'
+    end
   end
 
-  def foo
-    print 'var'
-  end
 
 end
